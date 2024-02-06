@@ -10,7 +10,7 @@ public class LocalRestaurant {
         Restaurant restaurant1 = new Restaurant("Tommy Lee","1474 Broward Blvd",5);
 
         Server server1 = new Server("John Watson",4645,10.00,true);
-        Server server2 = new Server("Vi6ju8=                                                                                                                                                                                                                                                          cktoria Stark",4455,10.00,false);
+        Server server2 = new Server("Diana Stark",4455,10.00,false);
 
         Server[] servers = {server1, server2};
 
@@ -23,6 +23,8 @@ public class LocalRestaurant {
         System.out.println(Arrays.toString(chefs));
         System.out.println(Arrays.toString(servers));
         System.out.println(restaurant1);
+        server1.washDishes();
+        chef1.makeOrder();
 
     }
 
