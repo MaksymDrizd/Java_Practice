@@ -11,3 +11,8 @@ public class Tester extends Employee{
         System.out.println(getJobTitle()+" "+ getName()+" is testing.");
     }
 }
+/*
+2. Create the following subclasses of Employee:
+   2.1 Tester:
+       - work(): Displays "[jobTitle] [name] is testing".
+ */

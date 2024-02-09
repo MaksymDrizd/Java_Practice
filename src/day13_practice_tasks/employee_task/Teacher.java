@@ -10,3 +10,7 @@ public class Teacher extends Employee{
         System.out.println(getName() + " is teaching.");
     }
 }
+/*
+2.3 Teacher:
+       - work(): Displays "[name] is teaching".
+ */

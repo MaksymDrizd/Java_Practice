@@ -21,3 +21,9 @@ public class Developer extends Employee{
                 "} ";
     }
 }
+/*
+2.2 Developer:
+       - Extra Variable:
+           - programmingLanguage: String
+       - work(): Displays "[jobTitle] [name] is coding in [programmingLanguage]".
+ */

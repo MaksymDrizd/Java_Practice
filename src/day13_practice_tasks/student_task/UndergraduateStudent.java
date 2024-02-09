@@ -10,3 +10,7 @@ public class UndergraduateStudent extends StudentSubClass{
         super.study();
     }
 }
+/*
+3.2 UndergraduateStudent:
+       - Same as GraduateStudent.
+ */

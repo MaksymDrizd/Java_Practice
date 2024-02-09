@@ -11,3 +11,9 @@ public class Driver extends Employee{
         System.out.println(getName() + " is driving.");
     }
 }
+/*
+2.4 Driver:
+       - work(): Displays "[name] is driving".
+
+   - Add any additional fields or methods as necessary.
+ */

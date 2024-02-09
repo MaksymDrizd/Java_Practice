@@ -62,3 +62,17 @@ public class CydeoStudent extends StudentSubClass{
                 "} ";
     }
 }
+/*
+3.3 CydeoStudent:
+       - Additional Attributes:
+           - batchNumber: int
+           - groupNumber: int
+           - programmingLanguage: String
+       - Encapsulation:
+           - Same as previous tasks.
+       - Constructor:
+           - Same as previous tasks.
+       - Actions:
+           - Override the study method.
+           - Override the toString method.
+ */
