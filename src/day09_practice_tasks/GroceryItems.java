@@ -13,7 +13,7 @@ public class GroceryItems {
         };
         for (int i = 0; i < items.length; i++) {
             for (int j = 0; j < items[i].length; j++) {
-                System.out.println(items[i][j] + "\t");
+                System.out.print(items[i][j] + "\t");
             }
             System.out.println();
         }
