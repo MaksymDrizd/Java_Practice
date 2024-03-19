@@ -6,11 +6,12 @@ public class RemoveDuplicates {
 
     public static void main(String[] args) {
 
-        List<Integer> list = new ArrayList<>();
-        list.addAll(Arrays.asList(
+        List<Integer> list = new ArrayList<>(Arrays.asList(
                 20,15,10,20,30,10,20,15,0
         ));
-        /*Set<Integer> set = new TreeSet<>(list);
+
+        /*
+        Set<Integer> set = new TreeSet<>(list);
         list.clear();
         list.addAll(set);
         System.out.println(list);
@@ -21,8 +22,8 @@ public class RemoveDuplicates {
 
     }
     public static void removeDuplicates(List<Integer> list){
-        List<Integer> uniqueElements = new ArrayList<>();
 
+        List<Integer> uniqueElements = new ArrayList<>();
         for (Integer each : list) {
             if (uniqueElements.contains(each)){
                 continue;
